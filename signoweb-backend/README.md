@@ -21,7 +21,11 @@ voto (realtime)
 
 
 Para iniciar o backend rodar:
+
 #1 npm install
+
 #2 docker-compose up
+
 #3 npm run typeorm migration:run
+
 #4 npm run dev
