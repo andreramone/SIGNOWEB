@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  SIGNOWEB_db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: SIGNOWEB
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3306:3306"
