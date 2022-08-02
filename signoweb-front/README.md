@@ -21,5 +21,7 @@ voto (realtime)
 
 
 Para iniciar o frontend rodar:
+
 #1 npm install
+
 #2 npm start
